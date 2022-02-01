@@ -7,7 +7,47 @@
   --text-description: #9c9696;
 }
 
-h1 {
-  color: #000;
+body {
+  background: var(--background);
+}
+
+#logo {
+  float: left;
+  width: 4%;
+  padding: 0.5px;
+}
+
+.btn-list {
+  color: var(--text);
   text-align: center;
+  font-weight: 400;
+  weight: 2%;
+  height: 100%;
+}
+
+.img-btn-pesquisar{
+  float: right;
+
+  display: flexbox;
+  position: relative;
+  right: 110px;
+  top: 5px;
+}
+}
+
+.btn-pesquisar {
+  background-color: white;
+  float: right;
+  
+
+  display: flexbox;
+  position: relative;
+  right: -110px;
+  top: 5px;
+}
+
+#btn-bag {
+  float: right;
+  width: 2%;
+  padding: 0.2px;
 }
