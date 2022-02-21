@@ -17,15 +17,16 @@ body {
   padding: 0.5px;
 }
 
-.btn-list {
-  color: var(--text);
-  text-align: center;
-  font-weight: 400;
-  weight: 2%;
-  height: 100%;
+#btn-list {
+  color: var(--text-description);
+  line-height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.img-btn-pesquisar{
+.img-btn-pesquisar {
   float: right;
 
   display: flexbox;
@@ -33,12 +34,10 @@ body {
   right: 110px;
   top: 5px;
 }
-}
 
 .btn-pesquisar {
   background-color: white;
   float: right;
-  
 
   display: flexbox;
   position: relative;
@@ -50,4 +49,11 @@ body {
   float: right;
   width: 2%;
   padding: 0.2px;
+}
+
+.btn-comprar {
+  background-color: red;
+
+  color: white;
+  font-size: 2rem;
 }
